@@ -172,7 +172,7 @@
 }
 .box{
   width: 20vw;
-  height: auto;
+  height: 16hw;
   border: 1px solid black;
   margin: 3%;
 }
