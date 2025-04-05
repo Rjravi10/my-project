@@ -15,38 +15,42 @@ body{
   padding:0;
   background: linear-gradient(to right, #ff0066 60%, #3333ff 100%);
 }
-/*
+
 .whatsappcontainerbody{
-  width: 100vw;
-  height: 600px;
-  display: flex;
+  width: 50vw;
+  height: 80vh;
+  margin: 3% 0% 0% 30%;
+ /* display: flex;
   align-items: center;
   justify-content: center;
   padding: 100px;
-   
-  } */
+   */
+  } 
 
 .whatsappcontainer{
-  width: 40vw;
-  height: 50vh;
+  width: 46vw;
+  height: auto;
   background-color: black;
-  margin: 3% 0% 0% 30%;
+  /*margin:0% 0% 0% 10%;*/
 }
 .menu{
-  width: 40vw;
-  height: 6vh;
+  width: 45vw;
+  height: auto;
   background-color: rgb(2, 18, 0);
   display: flex;
   align-items:center;
   justify-content: space-between;
   gap: 1%;
+  padding: 1%;
   
 }
 .frdimgname{
-  width: 30vw;
+  width: 35vw;
   height: 100%;
   display: flex;
   align-items:center;
+  justify-content: start;
+  background-color: ;
 }
 .frd{
   font-size: 200%;
@@ -54,30 +58,59 @@ body{
   font-weight: 100;
   }
 .img{
-  width: 30px;
-  height: 30px;
+  width:50px;
+  height: 50px;
   border-radius: 50%;
   
 }
 span{
-  font-size: 80%;
+  font-size: 100%;
   color: white;
   padding:2% 0px 0px 10px;
 }
 .camcallmenu{
   width: 12vw;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: ;
 }
 .camera,.call,.menudot{
   color: white;
-  font-size: auto; 
+  font-size: 3vw; 
   }
+.msgcontainer{
+  width: auto;
+  height: 60vh;
+  background-color: ;
+}
+.sendercontainer{
+  width: auto;
+  height: 50px;
+  background-color:black;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 1%;
+}
+.senderbox1{
+  width: 40vw;
+  height: 45px;
+  border-radius: 20px;
+  background-color: rgb(2, 18, 0);
+  
+}
+.senderbox2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
 </style>
 <body>
   <div class="whatsappcontainerbody">
+    <!--menu--></!--menu-->
   <div class="whatsappcontainer">
     <div class="menu">
       <div class="frdimgname">
@@ -92,7 +125,13 @@ span{
         <div class="menudot"><i class="ri-more-2-fill"></i></div>
       </div>   
     </div>
-  </div>
-  </div>
+  <!--msg--></!--sender-->
+<div class="msgcontainer"></div>
+<!--sender--></!--sender-->
+<div class="sendercontainer">
+  <div class="senderbox1"></div>
+  <div class="senderbox2"></div>
+</div>
+  </div></div>
 </body>
 </html>
