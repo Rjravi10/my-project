@@ -98,16 +98,41 @@ span{
   width: 40vw;
   height: 45px;
   border-radius: 20px;
-  background-color: rgb(2, 18, 0);
-  
-}
+  background-color: rgb(20, 23, 21);
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  gap: 10px;
+  padding-left: 5px;
+  }
 .senderbox2{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: white;
 }
-</style>
+.imoji{
+  color: rgb(121, 122, 122);
+  font-size: 200%;
+}
+.sendermsg{
+  width: 20vw;
+  color: rgb(121, 122, 122);
+  background-color: rgb(20, 23, 21);
+  font-size: 2vw;
+  border: none;
+  
+}
+.attachment{
+  font-size: 200%;
+  color: white;
+  transform: rotate(316deg);;
+}
+.camera{
+  font-size: 200%;
+  color: white;
+}
+  </style>
 <body>
   <div class="whatsappcontainerbody">
     <!--menu--></!--menu-->
@@ -129,7 +154,12 @@ span{
 <div class="msgcontainer"></div>
 <!--sender--></!--sender-->
 <div class="sendercontainer">
-  <div class="senderbox1"></div>
+  <div class="senderbox1">
+    <div class="imoji"><i class="ri-emoji-sticker-line"></i></div>
+    <input class="sendermsg" placeholder="Massage">
+    <div class="attachment"><i class="ri-attachment-2"></i></div>
+    <div class="camera"><i class="ri-camera-line"></i></div>
+  </div>
   <div class="senderbox2"></div>
 </div>
   </div></div>
